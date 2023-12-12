@@ -26,15 +26,15 @@ if (IsRunningOnUnix()) target = "Run-Unit-Tests";
 // GLOBAL VARIABLES
 ///////////////////////////////////////////////////////////////////////////////
 
-var libraryName = "CakeNet";
-var gitHubRepo = "CakeNet";
+var libraryName = "CakeMailNet";
+var gitHubRepo = "CakeMailNet";
 
 var testCoverageFilters = new[]
 {
-	"+[CakeNet]*",
-	"-[CakeNet]CakeNet.Properties.*",
-	"-[CakeNet]CakeNet.Models.*",
-	"-[CakeNet]*System.Text.Json.SourceGeneration*"
+	"+[CakeMailNet]*",
+	"-[CakeMailNet]CakeMailNet.Properties.*",
+	"-[CakeMailNet]CakeMailNet.Models.*",
+	"-[CakeMailNet]*System.Text.Json.SourceGeneration*"
 };
 var testCoverageExcludeAttributes = new[]
 {
